@@ -1,0 +1,28 @@
+
+.post {
+    padding: 15px 25px;
+}
+
+.post__img {
+    max-width: 800px;
+}
+
+.post__date {
+    font-style: italic;
+}
+
+.post__title {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.post__text-highlight {
+    font-weight: bold;
+    background-color: #551A8B;
+    color: #fff;
+    padding: .5em;
+}
+
+.post__back a {
+    text-decoration: none;
+}

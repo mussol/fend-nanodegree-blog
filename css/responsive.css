@@ -1,0 +1,58 @@
+/* Global responsive design: grid */
+
+.container {
+  /* Small Screens */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr auto auto;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "sidebar sidebar sidebar"
+    "footer footer footer";
+  min-height: 100vh;
+  /* border: 5px solid blue; */
+}
+.box{
+  /* border: 1px solid green; */
+}
+.header{
+  grid-area: header;
+}
+.content{
+  grid-area: main;
+}
+.sidebar{
+  grid-area: sidebar;
+}
+.footer{
+  grid-area: footer;  
+}
+
+/* Medium Screens */
+@media (min-width: 750px) and (max-width: 1000px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header header header header header"
+    "main main main main sidebar"
+    "footer footer footer footer footer";
+    /* border: 5px solid yellow; */
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1001px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:  
+    "header header header header header header"
+    "main main main main sidebar sidebar"
+    "footer footer footer footer footer footer";
+    /* border: 5px solid red; */
+  }
+}

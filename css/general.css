@@ -1,0 +1,36 @@
+/* Images */
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+/* General */
+html {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h1, h2, h3 {
+    text-transform: capitalize;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.7;
+}

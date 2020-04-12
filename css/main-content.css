@@ -1,0 +1,42 @@
+/* Layout of content box */
+
+
+.post-short {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.post-short-left {
+    width: 48%;
+    padding: 15px;
+}
+
+.post-short-right {
+    width: 52%;
+    padding: 15px;
+}
+
+/* Other formatting */
+
+.content__title {
+    padding-left: 15px;
+}
+
+.post-short__date {
+    font-style: italic;
+    margin-top: 0;
+}
+
+.post-short__title {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.post-short__title a {
+    text-decoration: none;
+}
+
+.post-short__more a {
+    text-decoration: none;
+}
