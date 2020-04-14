@@ -34,3 +34,7 @@ p {
     font-size: 1.4rem;
     line-height: 1.7;
 }
+
+figure {
+    margin: 0;
+}
